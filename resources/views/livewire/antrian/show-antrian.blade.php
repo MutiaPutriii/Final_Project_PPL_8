@@ -79,24 +79,6 @@
         @endauth
 
         <div class="row">
-            <div class="col-md-3">
-                <div class="mb-3">
-                    <select class="form-select" wire:model="poli">
-                        <option value="">Sortir Berdasarkan Poli</option>
-                        <option value="umum">Poli Pengecekan</option>
-                        <option value="umum">Poli Restoratifi</option>
-                        <option value="umum">Poli Endodontik</option>
-                        <option value="umum">Poli Periodontal</option>
-                        <option value="umum">Poli Prostodonik</option>
-                        <option value="umum">Poli Estetika Gigi</option>
-                        <option value="umum">Poli Gigi Sensitif</option>
-
-                    </select>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
             <div class="col">
                 <div class="table-responsive">
                     <table class="table table-bordered" id="table_id">
